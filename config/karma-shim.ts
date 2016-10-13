@@ -25,6 +25,7 @@ TestBed.initTestEnvironment(
 // toreplace
 import '../src/pages/home/home.spec';
 import '../src/pages/contact/contact.spec';
+import '../src/app/logger.service.spec';
 // toreplace
 
 __karma__.start();

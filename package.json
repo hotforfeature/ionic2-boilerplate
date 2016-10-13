@@ -154,11 +154,6 @@
     "xml2js": "^0.4.17"
   },
   "config": {
-    "ghooks": {
-      "pre-commit": "npm run lint && npm run scss-lint",
-      "pre-push": "npm test",
-      "commit-msg": "validate-commit-msg"
-    },
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     },
